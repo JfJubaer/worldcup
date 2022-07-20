@@ -105,6 +105,17 @@ body{
     color: darkgray;
 
 }
+.hdbutton{
+    display:none ;
+    
+}
+.hide{
+    background-color: #DD0000;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    align-content: center;
+}
 /* footer */
 footer{
     background-color: black;
@@ -173,7 +184,12 @@ footer hr{
         justify-items: center;  
         align-items: center;
         }
-    
+        .hdbutton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
 
 }
 /* mobile */
@@ -212,4 +228,5 @@ footer hr{
         flex-direction: column;
         align-items: center;
     }
+    
 }
