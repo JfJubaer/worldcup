@@ -76,7 +76,7 @@ body{
 #blg{
     background-color: #DD0000;
 }
-.blogs{
+.matches{
     margin-left: 30px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -85,20 +85,26 @@ body{
     width:calc(100%-400px);
    
 }
-.blog{
+.match{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    
     border: 1px solid rgb(240, 231, 231);
-    height: 432px;
-    width: 312px;
+    height: 332px;
+    width: 412px;
     border-radius: 10px;
 }
-.blog-info{
-    margin: 10px;
-
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-.more-info{
+
+
+
+.date{
     display: flex;
     font-size: 30px;
     justify-content: space-between;
@@ -108,7 +114,7 @@ body{
 /* footer */
 footer{
     background-color: black;
-    margin: 0px;
+    margin: 0;
 }
 footer h2{
     color: aliceblue;
