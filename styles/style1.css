@@ -2,7 +2,7 @@ body{
     font-family: 'Arima', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
-    margin: 100px;
+    
     font-size: 30px;
 }
 /* banner */
@@ -12,6 +12,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     height: 600px;
     border-radius: 30px;
+    margin: 100px;
     
 }
 .b-info{
@@ -41,4 +42,90 @@ body{
 
 .image .slh{
     height: 600px;
+}
+/* section2 */
+.sec2{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+.menu .mnu{
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#blg{
+    background-color: #DD0000;
+}
+.blogs{
+    margin-left: 30px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+    width:calc(100%-400px);
+   
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgb(240, 231, 231);
+    height: 432px;
+    width: 312px;
+    border-radius: 10px;
+}
+.blog-info{
+    margin: 10px;
+
+}
+.more-info{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    color: darkgray;
+
+}
+/* footer */
+footer{
+    background-color: black;
+    margin: 0px;
+}
+footer h2{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+footer hr{
+    color: azure;
+    margin: 0 100px 40px 100px;
+}
+.ft-last{
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: 10px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
 }
